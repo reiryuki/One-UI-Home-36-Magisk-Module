@@ -149,9 +149,9 @@ if [ ! -f $FILE ]; then
   ui_print "! One UI Core Magisk Module is not installed."
   ui_print "  Please read the Installation Guide!"
   abort
-elif [ "$NUM" -lt 15 ]; then
+elif [ "$NUM" -lt 20 ]; then
   ui_print "! This version requires One UI Core Magisk Module"
-  ui_print "  v1.5 or above."
+  ui_print "  v2.0 or above."
   abort
 else
   rm -f /data/adb/modules/OneUICore/remove
@@ -213,7 +213,7 @@ NAMES=oneuilauncher
 conflict
 
 # recents
-NUM=35
+NUM=36
 if [ "`grep_prop oneui.recents $OPTIONALS`" == 1 ]; then
   if [ "$API" -ge $NUM ]; then
     RECENTS=true

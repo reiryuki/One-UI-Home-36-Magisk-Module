@@ -1,4 +1,4 @@
-# One UI Home 35 Magisk Module
+# One UI Home 36 Magisk Module
 
 ## DISCLAIMER
 - One UI apps and blobs are owned by Samsung™.
@@ -8,12 +8,12 @@
 - Home launcher app by Samsung Electronics Co., Ltd. ported and integrated as a Magisk Module for all supported and rooted devices with Magisk
 
 ## Sources
-- https://apkmirror.com com.sec.android.app.launcher (target SDK 35) & com.sec.android.provider.badge by Samsung Electronics Co., Ltd.
+- https://apkmirror.com com.sec.android.app.launcher (target SDK 36) & com.sec.android.provider.badge by Samsung Electronics Co., Ltd.
 - BadgeSettings.apk by @KaldirimMuhendisi
 - libmagiskpolicy.so: Kitsune Mask R6687BB53
 
 ## Screenshots
-- https://t.me/ryukimodsscreenshots/57
+- https://t.me/ryukimodsscreenshots/
 
 ## Requirements
 - NOT in One UI nor Touchwiz ROM
@@ -21,6 +21,7 @@
 - Magisk or KernelSU installed
 - One UI Core Magisk Module installed https://github.com/reiryuki/One-UI-Core-Magisk-Module
 - Add media page to Home screen option requires Google app installed https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox or ported Samsung News/Free/Daily/Bixby Home app (com.samsung.android.app.spage) if it's exist.
+- Recents provider requires Android 16 (SDK 36) and up
 - Full gesture navigation and double tap to sleep requires root permission (except in AOSP signatured ROM)
 
 ## Installation Guide & Download Link
@@ -28,7 +29,7 @@
 - Reboot
 - Install One UI Core Magisk Module first: https://github.com/reiryuki/One-UI-Core-Magisk-Module
 - If you want to activate the recents provider, READ Optionals bellow!
-- Install this module https://www.pling.com/p/2262533/ via Magisk app or KernelSU app or Recovery if Magisk installed
+- Install this module https://www.pling.com/p/2323228/ via Magisk app or KernelSU app or Recovery if Magisk installed
 - If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (enable show system apps) and reboot afterwards
@@ -51,10 +52,11 @@
 - Global: https://t.me/ryukinotes/34
 
 ## Known Issues
-- Edge panels doesn't work
+- Hide apps on Home screen doesn't work
 - Recents provider doesn't launch sometimes
-- Recents tumbnails are blacked out in some ROMs. If your device support vulkan, this module https://github.com/reiryuki/SKIA-UI-Renderer-Enabler-Magisk-Module may fix that.
-- Does not support navbar overlay in QPR2 ROMs and up if recents provider is activated
+- Does not support navbar overlay if recents provider is activated
+- Buggy while pressing recents button directly from splitscreen
+- Edge panels doesn't work
 
 ## Support & Bug Report
 - https://t.me/ryukinotes/54
