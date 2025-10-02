@@ -13,7 +13,7 @@
 - libmagiskpolicy.so: Kitsune Mask R6687BB53
 
 ## Screenshots
-- https://t.me/ryukimodsscreenshots/
+- (next time)
 
 ## Requirements
 - NOT in One UI nor Touchwiz ROM
