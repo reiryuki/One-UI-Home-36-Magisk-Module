@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	package="com.sec.android.app.launcher"
-	platformBuildVersionCode="36"
-	platformBuildVersionName="16"
 	android:versionCode="1700005113"
 	android:versionName="17.0.00.113_reiryuki"
 	android:compileSdkVersion="36"
 	android:compileSdkVersionCodename="16"
+	package="com.sec.android.app.launcher"
+	platformBuildVersionCode="36"
+	platformBuildVersionName="16"
 	>
 	<uses-sdk
-		android:minSdkVersion="35"
+		android:minSdkVersion="29"
 		android:targetSdkVersion="36"
 		>
 	</uses-sdk>
+	<uses-permission
+		android:name="android.permission.GET_TASKS"
+		>
+	</uses-permission>
+	<uses-permission
+		android:name="android.permission.REAL_GET_TASKS"
+		>
+	</uses-permission>
 	<uses-permission
 		android:name="android.permission.RECEIVE_SENSITIVE_NOTIFICATIONS"
 		>
@@ -2416,7 +2424,9 @@
 				android:priority="1"
 				>
 				
+				
 				 " 
+				
 				
 				<action
 					android:name="android.intent.action.MAIN"
