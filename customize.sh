@@ -149,9 +149,9 @@ if [ ! -f $FILE ]; then
   ui_print "! One UI Core Magisk Module is not installed."
   ui_print "  Please read the Installation Guide!"
   abort
-elif [ "$NUM" -lt 20 ]; then
+elif [ "$NUM" -lt 21 ]; then
   ui_print "! This version requires One UI Core Magisk Module"
-  ui_print "  v2.0 or above."
+  ui_print "  v2.1 or above."
   abort
 else
   rm -f /data/adb/modules/OneUICore/remove

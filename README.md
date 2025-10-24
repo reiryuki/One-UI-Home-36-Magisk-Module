@@ -13,7 +13,7 @@
 - libmagiskpolicy.so: Kitsune Mask R6687BB53
 
 ## Screenshots
-- (next time)
+- https://t.me/ryukimodsscreenshots/69
 
 ## Requirements
 - NOT in One UI nor Touchwiz ROM
@@ -56,6 +56,7 @@
 - Recents provider doesn't launch sometimes
 - Does not support navbar overlay if recents provider is activated
 - Buggy while pressing recents button directly from splitscreen
+- Recents tumbnails are blacked out in some ROMs. If your device supports vulkan, this module https://github.com/reiryuki/SKIA-UI-Renderer-Enabler-Magisk-Module may fix that.
 - Edge panels doesn't work
 
 ## Support & Bug Report
