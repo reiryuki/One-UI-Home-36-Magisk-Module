@@ -1,74 +1,42 @@
-# One UI Home 36 Magisk Module
+# One UI Home 36 Magisk Module (Fixed for Android 16)
 
 ## DISCLAIMER
 - One UI apps and blobs are owned by Samsung™.
 - The MIT license specified here is for the Magisk Module only, not for One UI apps and blobs.
 
 ## Descriptions
-- Home launcher app by Samsung Electronics Co., Ltd. ported and integrated as a Magisk Module for all supported and rooted devices with Magisk
+- Home launcher app by Samsung Electronics Co., Ltd. ported and integrated as a Magisk Module for all supported and rooted devices with Magisk.
+- **Fixed for Android 16 (Baklava):** This version includes critical patches to support Android 16 gestural navigation and prevents initialization crashes.
 
-## Sources
-- https://apkmirror.com com.sec.android.app.launcher (target SDK 36) & com.sec.android.provider.badge by Samsung Electronics Co., Ltd.
-- BadgeSettings.apk by @KaldirimMuhendisi
-- libmagiskpolicy.so: Kitsune Mask R6687BB53
+## Android 16 Fixes (by Shyam Vadgama)
+1. **Gesture Crash Fix:** Replaced deprecated `InputManager.getInstance()` with `Context.getSystemService("input")` to support the new Android 16 input subsystem.
+2. **Kotlin Coroutines Restoration:** Fixed "OneUI Home keeps stopping" error by restoring missing Kotlin dispatcher service descriptors in `META-INF`.
+3. **Compatibility & Installation:** Properly aligned (`zipalign`) and signed the APK to ensure it passes Android 11+ security checks for system/priv-apps.
 
-## Screenshots
-- https://t.me/ryukimodsscreenshots/69
+## Screenshots (Working on Android 16)
+![Home Screen 1](./screenshots/home_1.png)
+![Home Screen 2](./screenshots/home_2.png)
+![About Phone](./screenshots/about_phone.png)
 
 ## Requirements
 - NOT in One UI nor Touchwiz ROM
 - Android 15 (SDK 35) and up
+- Android 16 (Baklava) fully supported
 - Magisk or Kitsune Mask or KernelSU or Apatch installed
 - One UI Core Magisk Module installed https://github.com/reiryuki/One-UI-Core-Magisk-Module
-- Add media page to Home screen option requires Google app installed https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox or ported Samsung News/Free/Daily/Bixby Home app (com.samsung.android.app.spage) if it's exist.
-- Recents provider requires Android 16 (SDK 36) and up
-- Full gesture navigation and double tap to sleep requires root permission (except in AOSP signatured ROM)
 
-## Installation Guide & Download Link
-- Remove any other else One UI Home Magisk module with different name (no need to remove if it's the same name)
-- Reboot
-- If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs first
-- Install One UI Core Magisk Module first: https://github.com/reiryuki/One-UI-Core-Magisk-Module
-- If you want to activate the recents provider, READ Optionals bellow!
-- Install this module https://www.pling.com/p/2323228/ via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
-- Reboot
-- If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (enable show system apps) and reboot afterwards
-- Change your default home to this launcher via Settings app (or you can copy the content of default.sh and paste it to Terminal/Termux app. Type su and grant root first!)
-- If you want to use Add media page to Home screen option, you need to install Google app https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox or ported Samsung News/Free/Daily/Bixby Home app (com.samsung.android.app.spage) if it's exist.
-- If you want to change some configurations, read Troubleshootings bellow!
-- If you are using multi user or Work Profile, don't forget to allow "Display over other apps" manually at the App Info or you can run this terminal command instead:
-
-`su`
-
-`appops set com.sec.android.app.launcher SYSTEM_ALERT_WINDOW allow`
-
-
-## Optionals
-- https://t.me/ryukinotes/33
-- Global: https://t.me/ryukinotes/35
-
-## Troubleshootings
-- https://t.me/ryukinotes/33
-- Global: https://t.me/ryukinotes/34
-
-## Known Issues
-- Hide apps on Home screen doesn't work
-- Recents provider doesn't launch sometimes
-- Does not support navbar overlay if recents provider is activated
-- Buggy while pressing recents button directly from splitscreen
-- Recents tumbnails are blacked out in some ROMs. If your device supports vulkan, this module https://github.com/reiryuki/SKIA-UI-Renderer-Enabler-Magisk-Module may fix that.
-- Edge panels doesn't work
-
-## Support & Bug Report
-- https://t.me/ryukinotes/54
-- If you don't do above, issues will be closed immediately
+## Installation Guide
+- Remove any previous One UI Home Magisk modules.
+- Reboot.
+- Install One UI Core Magisk Module first.
+- Install this patched module.
+- Reboot.
+- Set OneUI Home as default launcher in Settings.
 
 ## Credits and Contributors
+- @reiryuki (Original Creator)
 - @KaldirimMuhendisi
+- **Shyam Vadgama** (Android 16 Fixes & Maintenance)
+
+## Support
 - https://t.me/androidryukimodsdiscussions
-- You can contribute ideas about this Magisk Module here: https://t.me/androidappsportdevelopment
-
-## Sponsors
-- https://t.me/ryukinotes/25
-
-

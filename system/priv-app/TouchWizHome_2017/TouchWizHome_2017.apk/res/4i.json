@@ -1,0 +1,14 @@
+{
+  "com.sec.android.app.launcher.searchindexprovider": [
+    {
+      "com.samsung.android.settings.intelligence.TAG_BRAND_NEW": [
+        "pref_icon_widget_style"
+      ]
+    },
+    {
+      "com.samsung.android.settings.intelligence.TAG_INITIAL_CUSTOM": [
+        "pref_icon_widget_style"
+      ]
+    }
+  ]
+}

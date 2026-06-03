@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceConfiguration>
+    <GeneralInfo>
+        <Version></Version>
+        <DeviceType></DeviceType>
+        <BuildNum></BuildNum>
+        <CreatedTime></CreatedTime>
+    </GeneralInfo>
+    <BackupDataSet>
+        <BackupData>
+            <Settings>
+                <Advanced>
+                    <PreventOnlineProcessing>I</PreventOnlineProcessing>
+                </Advanced>
+                <Accounts>
+                    <AutoSyncData>I</AutoSyncData>
+                </Accounts>
+                <General>
+                    <Autofill>S</Autofill>
+                    <CredentialServicePrimary>S</CredentialServicePrimary>
+                    <CredentialServices>S</CredentialServices>
+                </General>
+                <Display>
+                    <FullScreenApps>S</FullScreenApps>
+                </Display>
+                <Notifications>
+                    <ShowSnoozeOption>I</ShowSnoozeOption>
+                    <AppIconBadge>I</AppIconBadge>
+                    <AppIconBadgeStyle>I</AppIconBadgeStyle>
+                    <AdvancedSettings>
+                        <ShowNotificationCategorySettings>I</ShowNotificationCategorySettings>
+                    </AdvancedSettings>
+                </Notifications>
+            </Settings>
+        </BackupData>
+    </BackupDataSet>
+</DeviceConfiguration>

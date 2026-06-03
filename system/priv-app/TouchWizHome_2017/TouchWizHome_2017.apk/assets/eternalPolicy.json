@@ -1,0 +1,464 @@
+{
+  "policyVersion": "1.20.03",
+
+  "sizeLimitation": [
+    {
+      "key": "/AOD/ClockType",
+      "minOneUI": "30000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/AirCommand/RemoteSPen/AppDefinedRule",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Accessibility/Default/NotificationReminderAppList",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Routine/Item/RoutineItemList",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/HBD/TextShortcuts",
+      "minOneUI": "20000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/HBD/UseSuggestSticker",
+      "minOneUI": "30000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Settings/Advanced/VideoEnhancerApp",
+      "minOneUI": "30000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/HBD/Emoji/SkinTone",
+      "minOneUI": "30000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Settings/Display/SwitchAppsToFrontScreen",
+      "minOneUI": "30000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Finder/Settings/ManageApps",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/DigitalWellbeing/CommonDb/FocusModeTargetApps",
+      "minOneUI": "30000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Accessibility/Default/AccessibilityButtonTargets",
+      "minOneUI": "30000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Accessibility/Default/AccessibilityDirectAccessTargetService",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Accessibility/Default/AccessibilityShortcutTargetService",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Settings/Advanced/LabsRotateAllApps",
+      "minOneUI": "40000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Settings/Advanced/LabsFlexModePanel",
+      "minOneUI": "40000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Settings/Advanced/LabsAppSplitView",
+      "minOneUI": "40000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Settings/Advanced/LabsAspectRatioApps",
+      "minOneUI": "40000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Settings/Advanced/LabsRotateApps",
+      "minOneUI": "40000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Accessibility/Default/ScreenFlashNotificationColorApps",
+      "minOneUI": "40000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/HBD/SuggestTextCorrections/ManageApps",
+      "minOneUI": "40000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/AOD/SubUiClockAttr",
+      "minOneUI": "40000",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/AOD/SubUiWidget",
+      "minOneUI": "40000",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Routine/Item/RoutineModeItems",
+      "minOneUI": "50000",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Settings/Advanced/LabsLandScapeViewForPortraitApps",
+      "minOneUI": "50000",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/HBD/HoneyVoice/OfflineLanguagePack",
+      "minOneUI": "50000",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/SamsungCapture/Screenshots/FavPenInfo",
+      "minOneUI": "50000",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Settings/Advanced/LabsFlexModePanelNew",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Settings/Advanced/LabsAppAllowedOnCoverScreen",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/HBD/Toolbar/ToolbarSet",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/HBD/Toolbar/ToolbarSubSet",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/AOD/SubLauncherWidget",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Finder/Settings/AppLaunchHistory",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Finder/Settings/SearchHistoryKeywords",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Settings/Connections/VpnProfiles",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/AirCommand/RemoteSPen/BaseRule",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/AirCommand/AirCommand/Shortcuts",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Routine/Item/RoutineModeItemsOrder",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Settings/Display/FullScreenApps",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Settings/Display/CameraCutout",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/SmartSuggestions/ChatTranslation/ManageApps",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Settings/Advanced/LabsContinueAppsOnCoverScreen",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/DigitalWellbeing/CommonDb/SettingsExcludedApps",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Settings/General/AppLanguage",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Settings/Advanced/DarkModeApps",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Settings/Advanced/FlexModeAutoShowPanel",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/AOD/ComplicationWidget",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },
+    {
+      "key": "/Settings/General/EnabledInputMethods",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    }
+  ],
+
+  "restoreRestriction": [
+    {
+      "key": "/AOD/TapToShow",
+      "minOneUI": "min",
+      "maxOneUI": "50100",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Settings/Advanced/LiftToWake",
+      "minOneUI": "min",
+      "maxOneUI": "60000",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Settings/Display/ScreenResolution",
+      "minOneUI": "min",
+      "maxOneUI": "60101",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Settings/Display/AutoBrightness",
+      "minOneUI": "min",
+      "maxOneUI": "60101",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Settings/Advanced/FingerSensorGestures",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Settings/Advanced/DoubleTapToWake",
+      "minOneUI": "min",
+      "maxOneUI": "60000",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Settings/Display/BlockAccidentalTouches",
+      "minOneUI": "min",
+      "maxOneUI": "60000",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    },
+    {
+      "key": "/Settings/Display/RefreshRate",
+      "minOneUI": "60101",
+      "maxOneUI": "max",
+      "deviceType": "common",
+      "minProvider": "min",
+      "maxProvider": "max"
+    }
+  ],
+
+  "deferredRestoration": [
+    {
+      "key": "/Settings/General/AppLanguage",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },{
+      "key": "/AutoBlocker/Settings/MainSwitch",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },{
+      "key": "/AutoBlocker/Settings/StrictSwitch",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },{
+      "key": "/HBD/Translation/ServerSourceLanguage",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },{
+      "key": "/HBD/Translation/ServerTargetLanguage",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },{
+      "key": "/HBD/Translation/OnDeviceSourceLanguage",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },{
+      "key": "/HBD/Translation/OnDeviceTargetLanguage",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },{
+      "key": "/HBD/Translation/ServerSelectedSourceLanguage",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },{
+      "key": "/HBD/Translation/OnDeviceSelectedSourceLanguage",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },{
+      "key": "/Settings/General/EnabledInputMethods",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    },{
+      "key": "/Settings/Advanced/LabsAppAllowedOnCoverScreen",
+      "minOneUI": "min",
+      "maxOneUI": "max",
+      "deviceType": "common"
+    }
+  ]
+}
