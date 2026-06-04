@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
     <privapp-permissions package="com.sec.android.app.launcher">
+        <permission name="android.permission.GET_APP_OPS_STATS"/>
+        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+        <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
         <permission name="android.permission.GET_ROLE_HOLDERS"/>
         <permission name="android.permission.REAL_GET_TASKS"/>
         <permission name="android.permission.STATUS_BAR"/>
