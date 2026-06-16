@@ -14,6 +14,9 @@ Home launcher app by Samsung Electronics Co., Ltd. ported and integrated as a Ma
 
 ## Changelog
 
+v1.4
+- Fix wrong logic in semDisplayDeviceType & getTopFocusedDisplayId method
+
 v1.3
 - Refix persistent bug crash/Application Not Responding at boot by removing unlinkToDeath in Y1.v.M method
 
@@ -46,11 +49,6 @@ v0.5
 - Fix wrong target in latest KernelSU
 - Fix denial if executing default.sh
 
-v0.4
-- Fix a crash in foldable mode
-- Re-fix some methods
-- Set secondary launcher
-
 ## Screenshots
 https://t.me/ryukimodsscreenshots/69
 
@@ -69,7 +67,7 @@ https://t.me/ryukimodsscreenshots/69
 - If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs or https://github.com/KernelSU-Modules-Repo/magic_mount_rs or https://github.com/KernelSU-Modules-Repo/hybrid_mount or https://github.com/maxsteeel/nomount first depending on ROM compatibility
 - Install One UI Core Magisk Module first: https://github.com/reiryuki/One-UI-Core-Magisk-Module
 - If you want to activate the recents provider, READ Optionals bellow!
-- Install this module https://devuploads.com/iylgw682y6rf via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
+- Install this module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (enable show system apps) and reboot afterwards
 - Change your default home to this launcher via Settings app (or you can copy the content of default.sh and paste it to Terminal/Termux app. Type su and grant root first!)
