@@ -78,7 +78,7 @@ fi
 
 # grant
 PKG=com.sec.android.app.launcher
-if appops get $PKG > /dev/null 2>&1; then
+if appops get $PKG >/dev/null 2>&1; then
   pm grant --all-permissions $PKG
   appops set $PKG SYSTEM_ALERT_WINDOW allow
   appops set $PKG GET_USAGE_STATS allow
@@ -86,6 +86,7 @@ if appops get $PKG > /dev/null 2>&1; then
     appops set $PKG RECEIVE_SENSITIVE_NOTIFICATIONS allow
   fi
   appops_set
+  #killall $PKG
 fi
 
 
