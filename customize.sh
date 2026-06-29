@@ -235,7 +235,6 @@ if [ "$RECENTS" == true ]; then
   touch /data/adb/modules/quickstepswitcher/disable
   touch /data/adb/modules/quickswitch/disable
   sed -i 's|#r||g' $MODPATH/post-fs-data.sh
-  sed -i 's/#killall/killall/g' $MODPATH/service.sh
   FILES=`find /data/adb/modules* ! -path "*/$MODID/*" -type f -name $NAME`
   for FILE in $FILES; do
     mv -f $FILE $FILE.bak

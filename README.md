@@ -14,6 +14,11 @@ Home launcher app by Samsung Electronics Co., Ltd. ported and integrated as a Ma
 
 ## Changelog
 
+v1.6
+- Fix recents crash on newer SDK 36 version
+- Fix wrong logic at isClassicDex & isNewDexMode methods
+- Revert restart process on boot
+
 v1.5
 - Restarts process via service.sh to prevent unresponsiveness on boot if the recents provider is activated
 - Resets module folders/files permissions at post-fs-data
@@ -42,13 +47,6 @@ v0.8
 - Fix permissions
 - Update libmagiskpolicy.so from Magisk (stable) 30.7 (30700)
 
-v0.7
-- Re-fix a method
-
-v0.6
-- SDK 36 QPR2 support
-- Fix crashes
-
 ## Screenshots
 https://t.me/ryukimodsscreenshots/69
 
@@ -67,7 +65,7 @@ https://t.me/ryukimodsscreenshots/69
 - If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs or https://github.com/KernelSU-Modules-Repo/magic_mount_rs or https://github.com/KernelSU-Modules-Repo/hybrid_mount or https://github.com/maxsteeel/nomount first depending on ROM compatibility
 - Install One UI Core Magisk Module first: https://github.com/reiryuki/One-UI-Core-Magisk-Module
 - If you want to activate the recents provider, READ Optionals bellow!
-- Install this module https://devuploads.com/mrkeo84cbxwf via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
+- Install this module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (enable show system apps) and reboot afterwards
 - Change your default home to this launcher via Settings app (or you can copy the content of default.sh and paste it to Terminal/Termux app. Type su and grant root first!)
@@ -88,6 +86,7 @@ https://t.me/ryukimodsscreenshots/69
 - Global: https://t.me/ryukinotes/34
 
 ## Known Issues
+- In newer SDK 36 version, the recents activity failed to launch on the first press of recents button and then launched on the second try. I don't know why.
 - Open in pop up view doesn't work
 - Hide apps on Home screen doesn't work
 - Recents provider doesn't launch sometimes

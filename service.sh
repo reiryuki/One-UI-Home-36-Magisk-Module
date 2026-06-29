@@ -86,7 +86,6 @@ if appops get $PKG >/dev/null 2>&1; then
     appops set $PKG RECEIVE_SENSITIVE_NOTIFICATIONS allow
   fi
   appops_set
-  #killall $PKG
 fi
 
 
