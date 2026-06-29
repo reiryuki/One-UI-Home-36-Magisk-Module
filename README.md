@@ -47,6 +47,9 @@ v0.8
 - Fix permissions
 - Update libmagiskpolicy.so from Magisk (stable) 30.7 (30700)
 
+v0.7
+- Re-fix a method
+
 ## Screenshots
 https://t.me/ryukimodsscreenshots/69
 
