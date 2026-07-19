@@ -14,6 +14,11 @@ Home launcher app by Samsung Electronics Co., Ltd. ported and integrated as a Ma
 
 ## Changelog
 
+v1.8
+- Fix a crash
+- Fix NaN issue
+- Prepare /storage/emulated/"$UID"/Android/data/com.sec.android.app.launcher/files directories
+
 v1.7
 - Fix recents provider doesn't launch sometimes with `su -c setprop persist.disable_recents_animation 1` (For more details, read Troubleshootings below)
 - Revert unlinkToDeath in Y1.v.M
@@ -48,11 +53,6 @@ v0.9
 - Extend startRecentsTransition timeout & open timeout end
 - Fix rootView isn't valid
 
-v0.8
-- Fix crashes in SDK 36 QPR2
-- Fix permissions
-- Update libmagiskpolicy.so from Magisk (stable) 30.7 (30700)
-
 ## Screenshots
 https://t.me/ryukimodsscreenshots/69
 
@@ -71,7 +71,7 @@ https://t.me/ryukimodsscreenshots/69
 - If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs or https://github.com/KernelSU-Modules-Repo/magic_mount_rs or https://github.com/KernelSU-Modules-Repo/hybrid_mount or https://github.com/maxsteeel/nomount first depending on ROM compatibility
 - Install One UI Core Magisk Module first: https://github.com/reiryuki/One-UI-Core-Magisk-Module
 - If you want to activate the recents provider, READ Optionals bellow!
-- Install this module https://devuploads.com/52lp7r2eukmg via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
+- Install this module https://github.com/reiryuki/One-UI-Home-36-Magisk-Module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (enable show system apps) and reboot afterwards
 - Change your default home to this launcher via Settings app (or you can copy the content of default.sh and paste it to Terminal/Termux app. Type su and grant root first!)
