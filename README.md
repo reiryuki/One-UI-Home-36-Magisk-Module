@@ -16,7 +16,7 @@ Home launcher app by Samsung Electronics Co., Ltd. ported and integrated as a Ma
 
 v1.8
 - Fix a crash
-- Fix NaN issue
+- Fix bug in cleaner.sh
 - Prepare /storage/emulated/"$UID"/Android/data/com.sec.android.app.launcher/files directories
 
 v1.7
