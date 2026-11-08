@@ -26,7 +26,7 @@ https://t.me/ryukimodsscreenshots/69
 
 ## Download Links and Changelog
 
-v2.0 https://github.com/reiryuki/One-UI-Home-36-Magisk-Module
+v2.0 https://move2link.co/4a9efe6
 - Android 17 (SDK 37) support
 - Fix semDisplayDeviceType method using createConfigurationContext
 - Fix sepolicy denial
