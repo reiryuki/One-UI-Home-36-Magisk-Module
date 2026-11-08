@@ -17,4 +17,7 @@ allow { system_app priv_app platform_app untrusted_app_29 untrusted_app_27 untru
 # service_manager
 allow { system_app priv_app platform_app untrusted_app_29 untrusted_app_27 untrusted_app } default_android_service service_manager find
 
+# unix_stream_socket
+allow priv_app_36 magisk unix_stream_socket connectto
+
 
