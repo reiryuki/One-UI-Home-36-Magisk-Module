@@ -31,7 +31,7 @@ v2.0 https://github.com/reiryuki/One-UI-Home-36-Magisk-Module
 - Fix semDisplayDeviceType method using createConfigurationContext
 - Fix sepolicy denial
 
-v1.9
+v1.9 https://move2link.co/d8482b3
 - Fix crashes NullPointerException
 - Prepare /storage/emulated/"$UID"/Android/data/$PKG/cache
 
